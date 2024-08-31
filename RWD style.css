@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+  }
+
+/*common use*/
+
+.bg-dark{
+	background-color: #aa0601;
+}
+
+.container-sm-full{
+	max-width: 1320px;
+	padding:0px 12px;
+    margin: 0 auto;
+}
+
+.contact-list {
+	font-size: 36px;
+	font-family: "Noto Sans TC", sans-serif;
+  }
+
+.d-flex{
+	display:flex;
+}
+
+
+.logo{
+	width: 80px;
+	height: 49px;
+	position: center;
+}
+
+.nav{
+	display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+.nav-item{
+	text-align: center;
+	padding:0;
+	width: 50%;
+}
+
+/*header*/
+
+.header {
+	
+	color: white;
+	padding: 16px 0;
+	width: 100%;
+}
+
+.header-wrapper{
+	justify-content:space-between;
+	align-items:center;
+}
+
+/*footer*/
+
+.footer {
+	padding-top: 48px;
+	padding-bottom: 32px;
+	color: white;
+  }
+
+  .footer-header {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: solid 1px white;
+	padding-bottom: 32px;
+	margin-bottom: 32px;
+  }
+
+  .footer .contact-list {
+	font-size: 36px;
+	font-family: "Noto Sans TC", sans-serif;
+  }
+
+  .material-symbols-outlined {
+	font-size: 48px;
+	vertical-align: middle;
+	margin-right: 20px;
+  }
+
+.social-list {
+	width: 48px;
+  }
+
+  .pr-0 {
+	padding-right: 0 !important;
+  }
+  
+  .pl-0 {
+	padding-left: 0 !important;
+  }
+
+.copyright{
+	justify-content: space-between;
+}
+
+.copyright-text {
+	margin-bottom: 4px;
+  }
+
+.privacy-list{
+	flex-direction: column;
+}
+
+/* utilities */
+.container {
+	max-width: 1320px;
+	margin: 0 auto;
+	padding-right: 12px;
+	padding-left: 12px;
+  }
