@@ -89,8 +89,7 @@ img {
 
 .nav-item{
 	text-align: center;
-	padding:0;
-	width: 50%;
+	padding: 10px;
 }
 
 /*header*/
@@ -108,6 +107,13 @@ img {
 }
 
 /*footer*/
+.justify-content-between{
+justify-content: space-between;
+}
+
+.fdc{
+	flex-direction:column;
+}
 
 .footer {
 	padding-top: 48px;
@@ -134,10 +140,14 @@ img {
 	margin-right: 20px;
   }
 
-.social-list {
+  .footer .social-list img {
 	width: 48px;
   }
-
+  
+  .footer .social-list a {
+	padding: 0 16px;
+  }
+  
   .pr-0 {
 	padding-right: 0 !important;
   }
